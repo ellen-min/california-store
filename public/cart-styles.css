@@ -1,0 +1,12 @@
+#cart article {
+  background-color: white;
+}
+
+#cart p {
+  color: #9b9b9b;
+}
+
+#cart-total {
+  margin: 50px;
+  font-size: 20pt;
+}

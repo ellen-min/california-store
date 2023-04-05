@@ -1,0 +1,339 @@
+/*
+* Author: Ellen Min
+* CS 132 Spring 2022
+* Date: June 6, 2022
+*
+* This page is the styles.css page used in all pages for the final project. 
+  It defines fonts, sizes, colors, and general styling for the website.
+*/
+
+/* -------------------- Page Layout -------------------- */
+body,
+#storefront,
+#cart,
+.single-view {
+  display: flex;
+}
+
+body,
+#storefront,
+#cart,
+.single-view,
+h3 {
+  margin: 0;
+}
+
+body {
+  flex-direction: column;
+}
+
+header,
+nav,
+main,
+footer {
+  text-align: center;
+}
+
+/* -------------------- Page Styles -------------------- */
+a,
+nav,
+main,
+footer {
+  color: #5d8672;
+}
+
+nav,
+main,
+footer,
+a,
+p,
+button,
+input {
+  font-family: "IM Fell DW Pica", serif;
+}
+
+header, footer {
+  background-size: cover;
+}
+
+header {
+  background-image: url(img/palms.png);
+}
+
+header, main, footer {
+  background-color: white;
+}
+
+footer {
+  background-image: url(img/sand.png);
+}
+
+header,
+.single-view {
+  padding: 0;
+}
+
+.hidden,
+#storefront::-webkit-scrollbar,
+#cart::-webkit-scrollbar {
+  display: none;
+}
+
+/* -------------------- Button --------------------*/
+button {
+  background-color: #9b9b9b;
+  color: white;
+  border: none;
+  padding: 5px 25px;
+  border-radius: 10px;
+  cursor:pointer;
+}
+
+button:hover {
+  background-color: #565656;
+}
+
+/* -------------------- Header -------------------- */
+h1 {
+  color: #557465;
+  line-height: 50%;
+  font-family: "La Belle Aurore", serif;
+  font-size: 60pt;
+  padding-bottom: 20px;
+}
+
+header {
+  padding-top: 60px;
+  border-bottom: 0.7px solid #557465;
+}
+
+/* -------------------- Navigation -------------------- */
+nav > ul > li,
+aside > ul > li,
+footer > ul > li {
+  list-style-type: none;
+}
+
+nav > ul > li {
+  display: inline;
+  padding: 100px;
+}
+
+footer > ul > li {
+  line-height: 1.75em;
+}
+
+nav,
+footer > ul > li {
+  font-size: 25pt;
+}
+
+footer > ul > li,
+button,
+label,
+p {
+  font-size: 18pt;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* -------------------- Filters -------------------- */
+#filters {
+  padding-top: 45px;
+}
+
+label,
+[type="checkbox"],
+[type="checkbox"]:checked {
+  cursor: pointer;
+}
+
+label {
+  padding-right: 50px;
+  padding-left: 3px;
+}
+
+
+[type="checkbox"],
+[type="checkbox"]:checked {
+  -webkit-appearance: none;
+  width: 1.75em;
+  height: 1.75em;
+  vertical-align: bottom;
+  border-radius: 25%;
+  border: 2px solid #557465;
+}
+
+[type="checkbox"] {
+  background-color: transparent;
+}
+
+[type="checkbox"]:checked {
+  background-color: #a8b3a8;
+}
+
+/* -------------------- Image Formatting -------------------- */
+#storefront img,
+#cart img,
+#running-promotions article,
+.cart {
+  cursor: pointer;
+}
+
+#storefront img,
+#storefront article,
+#cart img,
+#cart article,
+.single-view img {
+  border-radius: 20%;
+}
+
+#storefront article,
+#cart article {
+  margin-right: 20px;
+}
+
+.sold {
+  opacity: 0.5;
+}
+
+/* -------------------- Storefront / Cart View -------------------- */
+
+#storefront,
+#cart,
+.single-view {
+  margin: 50px 0px;
+}
+
+#storefront,
+#cart {
+  overflow-x: auto;
+}
+
+#storefront img,
+#cart img,
+.single-view img {
+  padding: 10px;
+}
+
+#storefront article,
+#cart article,
+.single-view article {
+  width: fit-content;
+}
+
+#storefront img,
+#cart img {
+  height: 400px;
+}
+
+.color0 {
+  background-color: #d78888;
+}
+
+.color1 {
+  background-color: #f4bf7e;
+}
+
+.color2 {
+  background-color: #f9edab;
+}
+
+.color3 {
+  background-color: #afc9af;
+}
+
+.color4 {
+  background-color: #b5e0ec;
+}
+
+.color5 {
+  background-color: #cec2de;
+}
+
+.color6 {
+  background-color: #f3d6ea;
+}
+
+#academy-pic {
+  margin-left: 20px;
+}
+
+/* -------------------- Single View -------------------- */
+.single-view {
+  justify-content: center;
+}
+
+.single-view > article > img {
+  height: 575px;
+}
+
+aside {
+  margin-left: 75px;
+  color: #29627e;
+  align-items: center;
+}
+
+aside > article {
+  border: 1px solid white;
+}
+
+aside > ul {
+  padding-inline-start: 0px;
+}
+
+aside > ul > li,
+.cart > p,
+form input {
+  font-size: 16pt;
+}
+
+.cart > p {
+  color: #ad3b3b;
+}
+
+.cart {
+  height: 150px;
+}
+
+.cart > img {
+  height: 150px;
+}
+
+h2,
+h3 {
+  font-style: italic;
+}
+
+h2 {
+  font-size: 32pt;
+}
+
+/* -------------------- Promotions -------------------- */
+#running-promotions article {
+  border: 0.5px solid #557465;
+}
+
+h3 {
+  font-size: 15pt;
+}
+
+form input {
+  color: #808080;
+}
+
+/* -------------------- Footer -------------------- */
+footer {
+  border-top: 0.7px solid #557465;
+  font-size: 14pt;
+}
+
+footer ul {
+  padding-inline-start: 0px;
+}
+
+footer > p {
+  font-size: 12pt;
+}

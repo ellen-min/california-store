@@ -1,0 +1,7 @@
+fidm museum
+100
+12
+fashion museum with cool clothes from over the decades
+img/fidm.jpeg
+museum
+mannequins with artistic costumes

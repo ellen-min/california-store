@@ -1,0 +1,7 @@
+solvang
+200
+130
+danish-style architecture and wineries
+img/solvang.jpeg
+architecture
+large cottage with windmill and colorful flowers

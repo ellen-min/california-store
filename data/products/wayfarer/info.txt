@@ -1,0 +1,7 @@
+wayfarer's chapel
+120
+40
+chapel with tinted glass in ranchos palos verdes
+img/wayfarer.jpeg
+architecture
+center of naturally lit chapel with oak doors and trees
