@@ -10,8 +10,6 @@
  * POST /promotions
  * POST /contact
  * 
- * NOTE TO GRADER: I chose to implement the Chosen Features (OPTION 1)
- * and (OPTION 4) though I indicated other options in the proposal.
  */
 
 const express = require("express");
